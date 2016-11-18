@@ -1,7 +1,7 @@
 Name: libsidplay
 Summary: SID chip music module playing library
 Version: 1.36.60
-Release: 2%{?dist}
+Release: 3%{?dist}
 Source: http://home.arcor.de/ms2002sep/bak/%{name}-%{version}.tar.bz2
 Patch0: libsidplay-1.36.57-opts.patch
 Group: System Environment/Libraries
@@ -72,6 +72,10 @@ rm -rf %{buildroot}
 
 
 %changelog
+%changelog
+* Thu Nov 17 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.36.60-3
+- Rebuilt for DeskOS
+
 * Tue Feb 08 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.36.60-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
 
